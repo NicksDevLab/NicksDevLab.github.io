@@ -1,18 +1,27 @@
 
+
+:root {
+    --main-background-color: rgb(245, 245, 220);
+    --main-header-color: rgb(55, 55, 55);
+    --main-header-height: 100px;
+    --main-header-name-height: 40px;
+}
+body {
+    background-color: var(--main-background-color);
+}
 .site-header {
     position: relative;
     text-align: center;
-    height: 40px;
-    background-color: blue;
+    height: var(--main-header-height);
+    background-image: radial-gradient(circle, var(--main-header-color) 0%, var(--main-background-color) 80%);
 }
 
 .site-name {
     position: absolute;
     top: 50%;
-    height: 20px;
-    margin-top: -10px;
+    height: var(--main-header-name-height);
+    margin-top: -20px;
     left: 50%;
-    width: 200pt;
     margin-left: -100pt;
-    background-color: orange;
+    font-size: xx-large;
 }
