@@ -7,6 +7,12 @@
     text-align: center;
 }
 
+.header-wrapper {
+    position: relative;
+    border: 1px solid #000;
+    padding-bottom: 15px;
+}
+
 .header {
     position: relative;
     font-size: xx-large;
@@ -18,18 +24,35 @@
     position: relative;
 }
 
-.wrapper {
+.menu-link-bar-wrapper {
+    position: relative;
     margin: auto;
 }
 
-#menu-link {
-    padding-left: 75px;
-    padding-right: 75px;
+.menu-link-item-wrapper {
+    display: inline-block; 
+    vertical-align: top;
+    width: 60px;
+    margin-left: 6%;
+    margin-right: 6%;
 }
+
+.menu-link {
+    color: springgreen;
+}
+
+.menu-link-item-underline{
+    height: 3px;
+    width: 60px;
+    background-color: springgreen;
+}
+
+
 a:link {
     font-family: Arial;
     text-decoration: none;
 }
+
 
 
 
